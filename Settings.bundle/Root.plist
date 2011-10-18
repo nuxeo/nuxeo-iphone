@@ -20,7 +20,7 @@
 			<key>Key</key>
 			<string>serviceUrl</string>
 			<key>DefaultValue</key>
-			<string>http://cmis.demo.nuxeo.org/nuxeo/site/cmis/repository</string>
+			<string>http://cmis.demo.nuxeo.org/nuxeo/atom/cmis</string>
 			<key>AutocapitalizationType</key>
 			<string>None</string>
 			<key>AutocorrectionType</key>
