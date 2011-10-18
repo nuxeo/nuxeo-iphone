@@ -1,0 +1,3 @@
+This software is copyright Nuxeo 2010, licensed under the GPL license.
+
+It contains third party software, licensed under various open source licenses.

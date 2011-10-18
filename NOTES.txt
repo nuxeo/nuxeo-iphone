@@ -1,0 +1,13 @@
+Notes about the application (architecture and design)
+=====================================================
+
+Libraries used
+--------------
+
+### DDXML / libxml2
+
+We're using the DDXML (aka KissXML) library.
+
+Libxml2 but be installed. For this, use MacPorts and run 
+"port install libxml2".
+

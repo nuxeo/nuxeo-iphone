@@ -1,0 +1,62 @@
+Roadmap for the Nuxeo CMIS client
+=================================
+
+Client side
+-----------
+
+V 0.1 [DONE]:
+
++ Navigate in repository
++ Show spinner when running HTTP requests
++ Proper object info in table views
+  + Use dc:title instead of name
+  + Last modification date
+  + size
+  + Creator
++ Order folders in a predictable way
++ Implement settings screen
+
+v 0.1.5:
+
+- Improve settings and refresh
+- Implement search
+- Add bottom bar to splash view
+- Proper memory management
+- Better Logo / splashscreen
+  See: <http://blog.cocoia.com/2007/making-iphone-icons/> for tips
+- Investigate why it doesn't work w/ MS Office documents
+
+V 0.2:
+
+- Asynchronous requests + progress bars
+- View object properties
+- Implement timeline
+- Caching
+ 
+V 0.3:
+
+- Navigate by author
+- Navigate by topic
+- Offline mode
+- Browsing history
+
+Later:
+
+- Image galleries
+- Upload images
+- Upload other stuff
+- Edit properties
+- Relations
+- Multi-server support
+- Send by email
+- Subscribe + push notifications
+- Worfklow
+
+Server-side support
+-------------------
+
+- Use dc:title for cmis:name property
+- Convert documents to viewable format before downloading
+- Use preview for images ?
+- Properly work with iWork documentd ?
+
